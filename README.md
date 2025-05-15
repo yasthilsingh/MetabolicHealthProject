@@ -37,7 +37,7 @@ A custom Matplotlib chart shows:
 - `README.md`  
   You’re reading it!
 
-> **Note:** Raw NHANES `.xpt` files are not included. Instructions to download them can be added if needed.
+> **Note:** Raw NHANES `.xpt` files are not included. Instructions to download are included below.
 
 ## 🛠 Tools Used
 
