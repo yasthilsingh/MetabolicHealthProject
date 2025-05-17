@@ -7,9 +7,6 @@ Our goal is to uncover clear, reproducible links between movement and metabolic 
 > In the U S. alone, **96 million adults are pre-diabetic** .A conservative view of direct medical cost of diabetes averages **\$9.6 k per person each year**.  
 > Even a modest **5 % reduction in fasting insulin**—achievable through increased physical activity—could avert **\$8–10 billion** in annual healthcare spending.  
 > This project quantifies how weekly movement links to insulin levels, laying the data foundation for preventive digital-health products and policy decisions.
-
-Our goal is to uncover clear, reproducible links between movement and metabolic health.
-
 ---
 
 ## 🌐 Live Report (Rendered HTML)
