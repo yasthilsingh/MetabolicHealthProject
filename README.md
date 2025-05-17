@@ -27,9 +27,6 @@ Open that URL in any browser to read the narrative, explore the charts, and down
 * Visualizes the link between activity and insulin sensitivity  
 * Compares metabolic markers between active and less-active groups
 
-
-
-
 ---
 
 ## 🧠 Why It Matters
@@ -55,8 +52,6 @@ A custom four-panel dashboard shows:
 | Path | Purpose |
 |------|---------|
 | **`docs/index.html`** | Live HTML walkthrough (served by GitHub Pages) |
-| **`docs/images/`** | Any embedded PNGs (e.g., `dashboard_snapshot.png`) |
-| `metabolic_health_analysis.ipynb` | Raw analysis notebook with code + outputs |
 | `metabolic_health_analysis_updated.ipynb` | Cleaned notebook with hidden inputs |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Ignore rules |
