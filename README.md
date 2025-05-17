@@ -3,10 +3,13 @@
 This project explores how weekly physical-activity levels relate to metabolic markers—especially **fasting insulin**—using real NHANES data.  
 Our goal is to uncover clear, reproducible links between movement and metabolic health.
 
-> **Market Intelligence Snapshot:**  
-> In the U S. alone, **96 million adults are pre-diabetic** .A conservative view of direct medical cost of diabetes averages **\$9.6 k per person each year**.  
-> Even a modest **5 % reduction in fasting insulin**—achievable through increased physical activity—could avert **\$8–10 billion** in annual healthcare spending.  
-> This project quantifies how weekly movement links to insulin levels, laying the data foundation for preventive digital-health products and policy decisions.
+### 📊 Market Analysis Layer
+
+* **96 M U.S. adults** are pre-diabetic  → [CDC 2022](https://www.cdc.gov/diabetes/data/statistics-report/index.html)  
+* **30 % adoption** of activity nudges in digital-health apps  → JAMA / *NPJ Digital Med*  
+* **~5 % insulin reduction** lowers diabetes risk (clinical consensus)  
+* **Direct medical cost** of diabetes ≈ \$9.6 k / person / year  → [ADA 2022](https://diabetesjournals.org/care/article/46/4/454/148746)  
+* **Cost-savings potential:** 1 M prevented cases → \$8–10 B annually
 ---
 
 ## 🌐 Live Report (Rendered HTML)
@@ -53,9 +56,10 @@ A custom four-panel dashboard shows:
 |------|---------|
 | **`docs/index.html`** | Live HTML walkthrough (served by GitHub Pages) |
 | `metabolic_health_analysis_updated.ipynb` | Cleaned notebook with hidden inputs |
+| `LICENSE` |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Ignore rules |
-| `README.md` | Project overview (this file) |
+| `README.md` | Project overview |
 
 > **Note:** Raw NHANES `.xpt` datasets are not included. See “Reproduce” below.
 
@@ -76,16 +80,6 @@ A custom four-panel dashboard shows:
 2. Add demographic segmentation (age, ethnicity)  
 3. Deploy as an interactive digital-health dashboard  
 4. Layer in economic datasets to estimate healthcare savings (see Market Analysis👇)
-
----
-
-### 📊 Market Analysis Layer
-
-* **96 M U.S. adults** are pre-diabetic  → [CDC 2022](https://www.cdc.gov/diabetes/data/statistics-report/index.html)  
-* **30 % adoption** of activity nudges in digital-health apps  → JAMA / *NPJ Digital Med*  
-* **~5 % insulin reduction** lowers diabetes risk (clinical consensus)  
-* **Direct medical cost** of diabetes ≈ \$9.6 k / person / year  → [ADA 2022](https://diabetesjournals.org/care/article/46/4/454/148746)  
-* **Cost-savings potential:** 1 M prevented cases → \$8–10 B annually
 
 ---
 
