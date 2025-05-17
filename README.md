@@ -3,6 +3,13 @@
 This project explores how weekly physical-activity levels relate to metabolic markers—especially **fasting insulin**—using real NHANES data.  
 Our goal is to uncover clear, reproducible links between movement and metabolic health.
 
+> **Market Intelligence Snapshot:**  
+> In the U S. alone, **96 million adults are pre-diabetic** .A conservative view of direct medical cost of diabetes averages **\$9.6 k per person each year**.  
+> Even a modest **5 % reduction in fasting insulin**—achievable through increased physical activity—could avert **\$8–10 billion** in annual healthcare spending.  
+> This project quantifies how weekly movement links to insulin levels, laying the data foundation for preventive digital-health products and policy decisions.
+
+Our goal is to uncover clear, reproducible links between movement and metabolic health.
+
 ---
 
 ## 🌐 Live Report (Rendered HTML)
@@ -21,7 +28,10 @@ Open that URL in any browser to read the narrative, explore the charts, and down
 * Cleans and standardizes biomarker variables (fasting glucose, insulin, HDL, etc.)  
 * Detects and caps outliers using percentile thresholds  
 * Visualizes the link between activity and insulin sensitivity  
-* Compares metabolic markers between active and less-active groups  
+* Compares metabolic markers between active and less-active groups
+
+
+
 
 ---
 
