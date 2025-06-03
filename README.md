@@ -46,7 +46,13 @@ A custom four-panel dashboard shows:
 
 * **Scatter & regression** – activity (x) vs. insulin (y)  
 * **Box & violin** – activity and insulin distributions split by gender  
-* **Jitter** – individual datapoints with goal thresholds highlighted  
+* **Jitter** – individual datapoints with goal thresholds highlighted
+
+### 📊 Dashboard Snapshot
+
+This snapshot gives a quick visual overview of the dashboard built for analyzing metabolic health metrics:
+
+![Dashboard Overview](images/dashboard.png)
 
 ---
 
