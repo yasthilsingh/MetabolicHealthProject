@@ -68,20 +68,17 @@ This snapshot gives a quick visual overview of the dashboard built for analyzing
 ## Repository Structure
 
 ```text
-Biomarkers Analysis Project/
-├── Datafiles/                           
-│   └── *.xpt             # Raw NHANES 2021–2022 data files
-├── docs/                 # Rendered HTML walkthrough & dashboard  
-│   └── index.html        
-├── images/               # Static figures used in reports/notebooks  
-├── scripts/              # Utility scripts  
-│   └── download_nhanes.py  # Download NHANES XPTs + checksum  
-├── metabolic_health_analysis-updated.ipynb
-├── metabolic_health_analysis_walkthrough.ipynb
-├── requirements.txt      # Python dependencies  
-├── README.md             # This file  
-├── LICENSE               # MIT license  
-└── .gitignore            # Ignored files and folders  
+MetabolicHealthProject/
+├── Datafiles/                             # Raw NHANES XPT files
+├── docs/                                  # Rendered HTML walkthrough (index.html)
+├── images/                                # Static figures used in notebooks and reports
+├── metabolic_health_analysis-updated.ipynb    # Main analysis notebook
+├── metabolic_health_analysis_walkthrough.ipynb# Walkthrough notebook
+├── requirements.txt                       # Python dependencies
+├── README.md                              # Project overview & instructions
+├── LICENSE                                # MIT license
+└── .gitignore                             # Files and folders to ignore
+
 
 ---
 
