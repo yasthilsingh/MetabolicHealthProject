@@ -64,15 +64,6 @@ This snapshot gives a quick visual overview of the dashboard built for analyzing
 
 ---
 
-### 📊 Market Analysis Layer
-
-* **96 M U.S. adults** are pre-diabetic  → [CDC 2022](https://www.cdc.gov/diabetes/data/statistics-report/index.html)  
-* **30 % adoption** of activity nudges in digital-health apps  → JAMA / *NPJ Digital Med*  
-* **~5 % insulin reduction** lowers diabetes risk (clinical consensus)  
-* **Direct medical cost** of diabetes ≈ \$9.6 k / person / year  → [ADA 2022](https://diabetesjournals.org/care/article/46/4/454/148746)  
-* **Cost-savings potential:** 1 M prevented cases → \$8–10 B annually
----
-
 ## 📁 Files in This Repo
 
 | Path | Purpose |
