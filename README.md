@@ -25,23 +25,23 @@ Open that URL in any browser to read the narrative, explore the charts, and down
 
 ## Data Sources
 
-This project relies exclusively on publicly available data from the **National Health and Nutrition Examination Survey (NHANES)**, conducted by the U.S. Centers for Disease Control and Prevention (CDC).
+This project uses data from the **2021 – 2022 cycle** of the  
+[National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm).
 
-| NHANES Cycle | Key Files Used<sup>†</sup> | Download Page |
-|--------------|---------------------------|---------------|
-| 2011–2012 | `DEMO_G.xpt`, `GLU_G.xpt`, `PAQ_G.xpt` | https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?CycleBeginYear=2011 |
-| 2013–2014 | `DEMO_H.xpt`, `GLU_H.xpt`, `PAQ_H.xpt` | https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?CycleBeginYear=2013 |
-| 2015–2016 | `DEMO_I.xpt`, `GLU_I.xpt`, `PAQ_I.xpt` | https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?CycleBeginYear=2015 |
-| 2017–2018 | `DEMO_J.xpt`, `GLU_J.xpt`, `PAQ_J.xpt` | https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?CycleBeginYear=2017 |
-| 2019–Mar 2020 | `DEMO_K.xpt`, `GLU_K.xpt`, `PAQ_K.xpt` | https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?CycleBeginYear=2019 |
+| File Code | Description                                            | Direct XPT Download |
+|-----------|--------------------------------------------------------|---------------------|
+| DEMO_L    | Demographics (age, gender, race, income, etc.)        | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DEMO_L.xpt) |
+| PAQ_L     | Physical Activity Questionnaire                       | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/PAQ_L.xpt) |
+| GLU_L     | Plasma Fasting Glucose                                | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/GLU_L.xpt) |
+| INS_L     | Fasting Insulin                                       | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/INS_L.xpt) |
+| GHB_L     | Glycohemoglobin (HbA1c)                               | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/GHB_L.xpt) |
+| HDL_L     | HDL Cholesterol                                       | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HDL_L.xpt) |
+| TCHOL_L   | Total Cholesterol                                     | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TCHOL_L.xpt) |
+| HSCRP_L   | High-sensitivity C-Reactive Protein (inflammation)    | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HSCRP_L.xpt) |
+| CBC_L     | Complete Blood Count                                  | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/CBC_L.xpt) |
 
-<sup>†</sup>**Key files**  
-- **DEMO\_** files provide demographic variables and sampling weights.  
-- **GLU\_** files include fasting plasma glucose & insulin (used for surrogate markers of insulin sensitivity).  
-- **PAQ\_** files contain physical-activity questionnaire data (weekly duration and intensity).  
-Additional laboratory or examination files (e.g., lipids, CRP) are merged as needed.
+For documentation and codebooks, see the NHANES “August 2021 – August 2023” Laboratory and Demographics data pages. :contentReference[oaicite:0]{index=0}
 
-All NHANES datasets are released under a public-domain–like license; no special permission is required for academic or commercial use. For an overview of the program and its documentation see the main NHANES portal: <https://www.cdc.gov/nchs/nhanes/index.htm>. :contentReference[oaicite:0]{index=0}
 
 ## 🧠 Why It Matters
 
