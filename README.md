@@ -64,18 +64,24 @@ This snapshot gives a quick visual overview of the dashboard built for analyzing
 
 ---
 
-## 📁 Files in This Repo
 
-| Path | Purpose |
-|------|---------|
-| **`docs/index.html`** | Live HTML walkthrough (served by GitHub Pages) |
-| `metabolic_health_analysis_updated.ipynb` | Cleaned notebook with hidden inputs |
-| `LICENSE` |
-| `requirements.txt` | Python dependencies |
-| `.gitignore` | Ignore rules |
-| `README.md` | Project overview |
+## Repository Structure
 
-> **Note:** Raw NHANES `.xpt` datasets are not included. See “Reproduce” below.
+```text
+Biomarkers Analysis Project/
+├── Datafiles/                           
+│   └── *.xpt             # Raw NHANES 2021–2022 data files
+├── docs/                 # Rendered HTML walkthrough & dashboard  
+│   └── index.html        
+├── images/               # Static figures used in reports/notebooks  
+├── scripts/              # Utility scripts  
+│   └── download_nhanes.py  # Download NHANES XPTs + checksum  
+├── metabolic_health_analysis-updated.ipynb
+├── metabolic_health_analysis_walkthrough.ipynb
+├── requirements.txt      # Python dependencies  
+├── README.md             # This file  
+├── LICENSE               # MIT license  
+└── .gitignore            # Ignored files and folders  
 
 ---
 
@@ -93,23 +99,6 @@ This snapshot gives a quick visual overview of the dashboard built for analyzing
 1. Extend to other biomarkers (cholesterol, HbA1c)  
 2. Add demographic segmentation (age, ethnicity)  
 3. Deploy as an interactive digital-health dashboard  
-4. Layer in economic datasets to estimate healthcare savings (see Market Analysis👇)
-
----
-
-## 🧪 How to Reproduce Locally
-
-```bash
-# 1) Clone
-git clone https://github.com/yasthilsingh/MetabolicHealthProject.git
-cd MetabolicHealthProject
-
-# 2) (Optional) create a virtual env
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 3) Install deps
-pip install -r requirements.txt
 
 ---
 
