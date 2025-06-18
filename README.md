@@ -26,7 +26,7 @@ Open that URL in any browser to read the narrative, explore the charts, and down
 ## Data Sources
 
 This project uses data from the **2021 – 2022 cycle** of the  
-[National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm).
+[National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.html).
 
 | File Code | Description                                            | Direct XPT Download |
 |-----------|--------------------------------------------------------|---------------------|
@@ -39,9 +39,6 @@ This project uses data from the **2021 – 2022 cycle** of the
 | TCHOL_L   | Total Cholesterol                                     | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/TCHOL_L.xpt) |
 | HSCRP_L   | High-sensitivity C-Reactive Protein (inflammation)    | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HSCRP_L.xpt) |
 | CBC_L     | Complete Blood Count                                  | [Download](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/CBC_L.xpt) |
-
-For documentation and codebooks, see the NHANES “August 2021 – August 2023” Laboratory and Demographics data pages. :contentReference[oaicite:0]{index=0}
-
 
 ## 🧠 Why It Matters
 
