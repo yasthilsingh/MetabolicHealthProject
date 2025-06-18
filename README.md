@@ -72,8 +72,8 @@ MetabolicHealthProject/
 ├── Datafiles/                             # Raw NHANES XPT files
 ├── docs/                                  # Rendered HTML walkthrough (index.html)
 ├── images/                                # Static figures used in notebooks and reports
-├── metabolic_health_analysis-updated.ipynb    # Main analysis notebook
-├── metabolic_health_analysis_walkthrough.ipynb# Walkthrough notebook
+├── metabolic_health_analysis-updated.ipynb      # Main analysis notebook
+├── metabolic_health_analysis_walkthrough.ipynb  # Walkthrough notebook
 ├── requirements.txt                       # Python dependencies
 ├── README.md                              # Project overview & instructions
 ├── LICENSE                                # MIT license
